@@ -57,7 +57,7 @@ def write_csv_headers():
 
 if __name__ == "__main__":
     write_csv_headers()
-    user_agent = "Data scraper 1.0 for hackathon project"
+    user_agent = "Data scraper 1.0"
     r = praw.Reddit(user_agent=user_agent,
                     client_id='',
                     client_secret='',
