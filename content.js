@@ -1,5 +1,3 @@
-//alert("wakanda");
-
 document.addEventListener("DOMSubtreeModified", function () {
     colorized();
 });
